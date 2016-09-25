@@ -244,8 +244,62 @@ ul.nav {
 
 }
 
+.apartment-amenities {
+  background-color: #faf5f2;
+  width: 100%;
+  /*height: 590px;*/
+  left: 0;
+  right: 0;
+  position: absolute;
+  /*position: relative;*/
+  padding-bottom: 70px;
+  /*width: 1440px;*/
+  z-index: 5;
 
 
+}
+
+
+.amenities-title {
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #8d3b42;
+
+}
+
+.amenities-list {
+  font-family: 'Athelas', serif;
+  font-size: 28px;
+  letter-spacing: 1px;
+  color: #8d3b42;
+  margin-top: 80px;
+
+}
+
+.left-side {
+  float: left;
+  margin-left: 18%;
+
+}
+
+.right-side {
+  float: right;
+  margin-right: 18%;
+}
+
+footer {
+  background-color: #8d3b42;
+  bottom: 0;
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  clear: both;
+  /*width: 1440px;*/
+  z-index: 10;
+}
 
 
 
