@@ -296,17 +296,30 @@ ul.nav {
 footer {
   background-color: #8d3b42;
   width: 1694px;
+  clear: right;
+  height: 210px;
+  margin-bottom: 0;
 }
 
+
 footer img {
-  padding-left: 107px;
-  padding-top: 10px;
+  /*padding-left: 107px;*/
+  padding-top: 14px;
+  padding-bottom: 0;
+
+
 }
 
 footer ul {
   list-style: none;
-  padding: 20px 0 0 107px;
+  padding: 0;
 
+
+}
+
+.footer-left {
+  float: left;
+  padding-left: 107px;
 }
 
 footer ul li {
@@ -315,16 +328,57 @@ footer ul li {
   box-sizing: border-box;
   font-family: 'Athelas', sans-serif;
   letter-spacing: 1px;
+  font-size: 16px;
+  /*padding-top: 80px;*/
+
+}
+
+.footer-left-content {
+  padding-top: 15px;
 }
 
 footer ul li a {
   text-decoration: none;
   color: white;
+
 }
 
 footer ul li a:hover {
   color: #f0e0bd;
 }
+
+.copyright {
+  /*padding-left: 107px;*/
+  color: white;
+  font-family: 'Athelas', sans-serif;
+  font-size: 15px;
+}
+
+.social-media {
+  float: right;
+  padding-right: 107px;
+  padding-top: 40px;
+}
+
+.social-media h4 {
+  font-family: 'Copperplate', serif;
+  font-weight: lighter;
+  font-size: 18px;
+  color: white;
+}
+
+.social-icons {
+  text-align: center;
+}
+
+.social-icons a img{
+  padding: 1px 0 0 20px;
+}
+
+/*footer ul li, .social-media {
+  vertical-align: middle;
+  display: inline-block;
+}*/
 
 
 
