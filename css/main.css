@@ -110,7 +110,8 @@ header {
 nav {
   background-color: #be9195;
   position: absolute;
-  width: 1694px;
+  width: 100%;
+  /*width: 1694px;*/
   top: 0;
   /*padding-top: 35px;*/
   padding-bottom: 30px;
@@ -118,7 +119,8 @@ nav {
 }
 
 .top-logo {
-  padding-left: 107px;
+  padding-left: 32px;
+  /*padding-left: 107px;*/
   padding-top: 10px;
   /*padding-bottom: 30px;*/
   float: left;
@@ -129,7 +131,7 @@ nav {
 ul.nav {
   list-style: none;
   float: right;
-  padding-right: 63px;
+  /*padding-right: 63px;*/
 
 }
 
@@ -167,7 +169,7 @@ ul.nav {
   display: block;
   position: absolute;
   float: right;
-  margin: 200px 0 0 1193px;
+  margin: 200px 0 0 1034px;
 }
 
 .amenities-text {
@@ -177,7 +179,7 @@ ul.nav {
   letter-spacing: 1px;
   color: #8d3b42;
   position: absolute;
-  margin: 72px 0 0 129px;
+  margin: 68px 0 0 115px;
   margin-bottom: 0;
 }
 
@@ -193,7 +195,7 @@ ul.nav {
   letter-spacing: 1px;
   color: #8d3b42;
   position: absolute;
-  margin: 72px 0 0 143px;
+  margin: 68px 0 0 128px;
   margin-bottom: 0;
 }
 
@@ -209,7 +211,7 @@ ul.nav {
   letter-spacing: 1px;
   color: #8d3b42;
   position: absolute;
-  margin: 72px 0 0 128px;
+  margin: 68px 0 0 115px;
   margin-bottom: 0;
 }
 
@@ -219,20 +221,20 @@ ul.nav {
 }
 
 .amenities-img {
-  width: 410px;
-  height: 167px;
+  width: 371px;
+  height: 156px;
   margin-bottom: 20px;
 }
 
 .gallery-img {
-  width: 410px;
-  height: 167px;
+  width: 371px;
+  height: 156px;
   margin-bottom: 20px;
 }
 
 .floor-plan-img {
-  width: 410px;
-  height: 167px;
+  width: 371px;
+  height: 156px;
 }
 
 /* OFFICE HOURS */
@@ -241,11 +243,15 @@ ul.nav {
   position: absolute;
   float: right;
   right: 0;
-  margin: 779px 155px 0 1193px;
+  margin: 771px 88px 0 1020px;
   font-family: 'Libre Baskerville', serif;
-  font-size: 21px;
+  font-size: 18px;
   text-align: center;
   color: #8d3b42;
+}
+
+.office-hours-content {
+  margin-left: 38px;
 }
 
 .office-hours-header {
@@ -259,33 +265,26 @@ ul.nav {
   font-weight: bold;
   margin-top: 70px;
 
-}
+  margin-left: 20px;
 
-/*.schedule-appt {
-  border: 3px solid #8d3b42;
-  padding: 7px 20px 7px 20px;
-}*/
+}
 
 .schedule-link {
   text-decoration: none;
   color: #8d3b42;
   border: 3px solid #8d3b42;
-  padding: 15px 25px 15px 25px;
+  padding: 15px 30px 15px 30px;
 }
 
 .apply {
   margin-top: 55px;
-  /*border: 3px solid #8d3b42;
-  padding: 7px 20px 7px 20px;*/
 }
 
 .apply-link {
   text-decoration: none;
   color: #8d3b42;
   border: 3px solid #8d3b42;
-  padding: 13px 92px 13px 92px;
-
-
+  padding: 13px 85px 13px 85px;
 }
 
 .schedule-appt:hover {
@@ -303,18 +302,21 @@ ul.nav {
 }
 
 
+/* HEADER CONTENT */
 
-
-
-
-/*.header-content {
-  margin-left: 49px;
-
+.header-content {
+  margin-left: 32px;
+  /*margin-left: 100px;*/
+  clear: right;
+}
 
 .header-img {
   margin-top: 200px;
   border: solid 3px #be9195;
+  width: 850px;
+  margin-top: 200px;
 }
+
 
 .header-text {
   font-family: 'Libre Baskerville', serif;
@@ -324,12 +326,13 @@ ul.nav {
   padding-top: 30px;
   padding-bottom: 0;
   margin-bottom: 0;
+
 }
 
 .subhead {
   font-family: 'Athelas', serif;
   font-weight: lighter;
-  font-size: 32px;
+  font-size: 28px;
   font-style: italic;
   margin-top: 0;
 }
@@ -339,59 +342,7 @@ ul.nav {
   font-weight: normal;
   margin-top: 45px;
   line-height: 25px;
-  padding-right: 350px;
-
-}*/
-
-/* WORK ON LATER */
-
-/*.side-menu {
-  display: block;
-}
-
-.amenities {
-  float: right;
-}*/
-
-/* HEADER CONTENT */
-
-.header-content {
-  margin-left: 100px;
-  clear: right;
-}
-
-.header-img {
-  margin-top: 200px;
-  border: solid 3px #be9195;
-  width: 904px;
-  margin-top: 200px;
-}
-
-
-.header-text {
-  font-family: 'Libre Baskerville', serif;
-  font-weight: 700;
-  font-size: 38px;
-  letter-spacing: 1px;
-  padding-top: 30px;
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
-
-.subhead {
-  font-family: 'Athelas', serif;
-  font-weight: lighter;
-  font-size: 32px;
-  font-style: italic;
-  margin-top: 0;
-}
-
-.header-body {
-  font-family: 'Athelas', serif;
-  font-weight: normal;
-  margin-top: 45px;
-  line-height: 25px;
-  padding-right: 50px;
+  padding-right: 170px;
   font-size: 20px;
 
 }
@@ -400,14 +351,14 @@ ul.nav {
 
 .apartment-amenities {
   background-color: #faf5f2;
-  /*width: 100%;*/
+  width: 100%;
   height: 590px;
   left: 0;
   right: 0;
-  /*position: absolute;*/
+  position: absolute;
   /*position: relative;*/
   padding-bottom: 680px;
-  width: 1694px;
+  /*width: 1694px;*/
   /*z-index: 5;*/
   box-sizing: border-box;
   padding-top: 20px;
@@ -437,23 +388,27 @@ ul.nav {
 
 .left-side {
   float: left;
-  margin-left: 18%;
+  margin-left: 280px;
+  /*margin-left: 18%;*/
 
 }
 
 .right-side {
   float: right;
-  margin-right: 18%;
+  margin-right: 280px;
 }
 
 /* FOOTER */
 
 footer {
   background-color: #8d3b42;
-  width: 1694px;
+  width: 100%;
+  /*width: 1694px;*/
   clear: right;
   height: 210px;
-  margin-bottom: 0;
+  margin-top: 800px;
+  position: absolute;
+  /*bottom: -2080px;*/
 }
 
 
@@ -474,7 +429,8 @@ footer ul {
 
 .footer-left {
   float: left;
-  padding-left: 107px;
+  /*padding-left: 107px;*/
+  padding-left: 32px;
 }
 
 footer ul li {
