@@ -94,6 +94,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* BASE STYLES */
 
 body {
   width: 1024px;
@@ -103,6 +104,8 @@ header {
   font-family: 'Times New Roman';
   font-weight: bold;
 }
+
+/* NAVIGATION */
 
 nav {
   background-color: #be9195;
@@ -156,6 +159,154 @@ ul.nav {
   display: inline-block;
 }
 
+
+
+/* SIDE MENU IMGS */
+
+.side-menu {
+  display: block;
+  position: absolute;
+  float: right;
+  margin: 200px 0 0 1193px;
+}
+
+.amenities-text {
+  font-family: 'Copperplate', serif;
+  font-weight: regular;
+  font-size: 28px;
+  letter-spacing: 1px;
+  color: #8d3b42;
+  position: absolute;
+  margin: 72px 0 0 129px;
+  margin-bottom: 0;
+}
+
+.amenities-text:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.gallery-text {
+  font-family: 'Copperplate', serif;
+  font-weight: regular;
+  font-size: 28px;
+  letter-spacing: 1px;
+  color: #8d3b42;
+  position: absolute;
+  margin: 72px 0 0 143px;
+  margin-bottom: 0;
+}
+
+.gallery-text:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.floor-plan-text {
+  font-family: 'Copperplate', sans-serif;
+  font-weight: regular;
+  font-size: 28px;
+  letter-spacing: 1px;
+  color: #8d3b42;
+  position: absolute;
+  margin: 72px 0 0 128px;
+  margin-bottom: 0;
+}
+
+.floor-plan-text:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.amenities-img {
+  width: 410px;
+  height: 167px;
+  margin-bottom: 20px;
+}
+
+.gallery-img {
+  width: 410px;
+  height: 167px;
+  margin-bottom: 20px;
+}
+
+.floor-plan-img {
+  width: 410px;
+  height: 167px;
+}
+
+/* OFFICE HOURS */
+
+.office-hours {
+  position: absolute;
+  float: right;
+  right: 0;
+  margin: 779px 155px 0 1193px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 21px;
+  text-align: center;
+  color: #8d3b42;
+}
+
+.office-hours-header {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.ctas {
+  font-family: 'Copperplate', sans-serif;
+  font-weight: bold;
+  margin-top: 70px;
+
+}
+
+/*.schedule-appt {
+  border: 3px solid #8d3b42;
+  padding: 7px 20px 7px 20px;
+}*/
+
+.schedule-link {
+  text-decoration: none;
+  color: #8d3b42;
+  border: 3px solid #8d3b42;
+  padding: 15px 25px 15px 25px;
+}
+
+.apply {
+  margin-top: 55px;
+  /*border: 3px solid #8d3b42;
+  padding: 7px 20px 7px 20px;*/
+}
+
+.apply-link {
+  text-decoration: none;
+  color: #8d3b42;
+  border: 3px solid #8d3b42;
+  padding: 13px 92px 13px 92px;
+
+
+}
+
+.schedule-appt:hover {
+  background-color: #8d3b42;
+}
+
+.schedule-link:hover {
+  background-color: #8d3b42;
+  color: white;
+}
+
+.apply-link:hover {
+  background-color: #8d3b42;
+  color: white;
+}
+
+
+
+
+
+
 /*.header-content {
   margin-left: 49px;
 
@@ -202,6 +353,8 @@ ul.nav {
   float: right;
 }*/
 
+/* HEADER CONTENT */
+
 .header-content {
   margin-left: 100px;
   clear: right;
@@ -212,9 +365,8 @@ ul.nav {
   border: solid 3px #be9195;
   width: 904px;
   margin-top: 200px;
-
-
 }
+
 
 .header-text {
   font-family: 'Libre Baskerville', serif;
@@ -244,6 +396,8 @@ ul.nav {
 
 }
 
+/* LIST OF AMENITIES */
+
 .apartment-amenities {
   background-color: #faf5f2;
   /*width: 100%;*/
@@ -252,13 +406,12 @@ ul.nav {
   right: 0;
   /*position: absolute;*/
   /*position: relative;*/
-  padding-bottom: 10px;
+  padding-bottom: 680px;
   width: 1694px;
   /*z-index: 5;*/
   box-sizing: border-box;
   padding-top: 20px;
-
-
+  margin-top: 150px;
 }
 
 
@@ -292,6 +445,8 @@ ul.nav {
   float: right;
   margin-right: 18%;
 }
+
+/* FOOTER */
 
 footer {
   background-color: #8d3b42;
