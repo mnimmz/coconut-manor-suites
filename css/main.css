@@ -97,7 +97,7 @@ textarea {
 /* BASE STYLES */
 
 body {
-  width: 1024px;
+  width: 1440px;
 }
 
 header {
@@ -342,7 +342,7 @@ ul.nav {
   font-weight: normal;
   margin-top: 45px;
   line-height: 25px;
-  padding-right: 170px;
+  padding-right: 500px;
   font-size: 20px;
 
 }
@@ -494,6 +494,34 @@ footer ul li a:hover {
 /* TABLET STYLES */
 
 
+/* DESKTOP STYLES */
+
+@media only screen and (max-width: 1024px) {
+
+  nav {
+    width: 1440px;
+  }
+
+  .apartment-amenities {
+    width: 1440px;
+  }
+
+  .office-hours {
+    position: absolute;
+    right: -330px;
+    top: 760px;
+    margin: 0;
+  }
+
+  .header-body {
+    padding-right: 500px;
+  }
+
+  footer {
+    width: 1440px;
+  }
+
+}
 
 
 
