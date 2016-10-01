@@ -170,12 +170,23 @@ main {
 
 /* HEADER CONTENT */
 
-header .banner-img {
-  background: url('../images/amenities.png') no-repeat center bottom;
+.gradient {
+  background: background: linear-gradient(135deg, red, blue);
+  background: -moz-linear-gradient(135deg, red, blue);;
+  background: moz-linear-gradient(135deg, red, blue);
   padding-top: 50%;
   background-size: cover;
   width: 100%;
 }
+
+header .banner-img {
+  background: url('../images/coconut-suite-apartments.png');
+  padding-top: 50%;
+  background-size: cover;
+  width: 100%;
+  z-index: -1;
+}
+
 
 
 
