@@ -96,17 +96,23 @@ textarea {
    ========================================================================== */
 /* BASE STYLES */
 
+
+
+html {
+  font-size: 100%;
+}
+
+header {
+  font-family: 'Times New Roman';
+  font-weight: bold;
+}
+
 /*
 body {
   max-width: 1024px;
   margin: 0 auto;
 }
 */
-
-header {
-  font-family: 'Times New Roman';
-  font-weight: bold;
-}
 
 
 /* NAVIGATION */
@@ -168,9 +174,9 @@ main {
 }
 
 
-/* HEADER CONTENT */
 
-.gradient {
+
+/*.gradient {
   background: background: linear-gradient(135deg, red, blue);
   background: -moz-linear-gradient(135deg, red, blue);;
   background: moz-linear-gradient(135deg, red, blue);
@@ -178,20 +184,132 @@ main {
   background-size: cover;
   width: 100%;
 }
+*/
+
+/* OFFICE HOURS */
+
+aside.office-hours {
+  float: right;
+  padding-top: 50px;
+
+}
+
+.ctas {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.schedule-appt {
+  padding-bottom: 23px;
+}
+.schedule-link {
+  text-decoration: none;
+  border: 2px solid #8d3b42;
+  padding: 10px 15px 10px 15px;
+}
+
+.apply-link {
+  text-decoration: none;
+  border: 2px solid #8d3b42;
+  padding: 10px 57px 10px 57px;
+}
+
+
+.ctas a {
+  color: #8d3b42;
+}
+
+a.schedule-link:hover {
+  color: white;
+  background-color: #8d3b42;
+}
+
+a.apply-link:hover {
+  color: white;
+  background-color: #8d3b42;
+}
+
+
+
+/* HEADER CONTENT */
 
 header .banner-img {
-  background: url('../images/coconut-suite-apartments.png');
+  background: url('../images/coconut-suite-apartments.png') no-repeat;
   padding-top: 50%;
+  /*position: right 0px top 20px;*/
+  height: auto;
   background-size: cover;
   width: 100%;
-  z-index: -1;
+  background-position: center;
+  background-position: bottom 100px;
+  /*position: fixed;*/
+}
+
+.header-content {
+  width: 70%;
+  padding-top: 50px;
+}
+
+.header-text {
+  font-family: 'Libre Baskerville', serif;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+}
+
+.subhead {
+  font-family: 'Athelas', sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  margin-top: .125rem;
+}
+
+.header-body {
+  font-family: 'Athelas', sans-serif;
+  font-size: 1.07rem;
+  padding-right: 10px;
+  line-height: 25px;
 }
 
 
 
 
 /* LIST OF AMENITIES */
+.apartment-amenities {
+  background-color: #faf5f2;
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  left: 0;
+  font-family: 'Times New Roman', serif;
+  /*padding-bottom: 108px;;*/
+  margin-top: 200px;
+  color: #8d3b42;
+}
 
+.amenities-title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-top: 20px;
+}
+
+ul .left-side {
+  padding-top: 60px;
+  padding-left: 20%;
+  font-size: 26px;
+  font-family: 'Athelas', sans-serif;
+
+}
+
+ul .right-side {
+  position: absolute;
+  top: 25.8%;
+  padding-left: 60%;
+  font-size: 26px;
+  font-family: 'Athelas', sans-serif;
+}
 
 
 
