@@ -109,26 +109,14 @@ header {
 }
 
 
-/*
-.container {
-  max-width: 60%;
-  margin: 0 auto;
-}
-*/
-
-
 /* NAVIGATION */
 
 nav {
   background-color: #be9195;
-/*  height: 100px;    */
   position: absolute;
   width: 100%;
-  /*width: 1694px;*/
   top: 0;
-  /*padding-top: 35px;*/
   padding-bottom: 30px;
-
 }
 
 .top-logo {
@@ -161,7 +149,6 @@ ul.nav {
   display: inline-block;
   margin-right: 32px;
   padding-top: 35px;
-
 }
 
 
@@ -176,52 +163,26 @@ ul.nav {
 
 
 main {
-/*  position: relative;*/
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
-
-
-
-/* SIDE MENU IMGS */
-
-/*
-.side-menu {
-  position: relative;
-}
-
-.side-menu img {
-  position: absolute;
-  right: 0;
-  width: 10%;
-}
-*/
-
-/* OFFICE HOURS */
-
 
 
 /* HEADER CONTENT */
 
+/*header .banner-img {
+  background: url('../images/amenities.png') no-repeat center bottom;
+}*/
+    /*padding-top: 50%;
+
+    background-size: cover;
+    width: 100%;*/
+/*}*/
+
 header .banner-img {
-  /*position: relative;*/
-  padding-top: 50%;
-  background: url('../images/coconut-suite-apartments.png') no-repeat center bottom;
-  background-size: cover;
-  width: 100%;
-
+  background: url('../images/amenities.png') no-repeat center bottom;
 }
 
-/*img.header-img {
-  position: absolute;
-  width: */
-
-/*  width: 100%;    */
-
-/*  position: absolute;*/
-
-
-}
 
 /* LIST OF AMENITIES */
 
@@ -230,55 +191,29 @@ header .banner-img {
 
 /* FOOTER */
 
-/*footer {
-  background: blue;
-
-}*/
-
 footer {
   background-color: #8d3b42;
   width: 100%;
-  /*width: 1694px;*/
   clear: right;
   height: 210px;
   margin-top: 800px;
   position: absolute;
-  /*bottom: 0;*/
-  /*bottom: -2080px;*/
-}
-
-footer {
-  background-color: #8d3b42;
-  width: 100%;
-  /*width: 1694px;*/
-  clear: right;
-  height: 210px;
-  margin-top: 800px;
-  position: absolute;
-  /*bottom: 0;*/
-  /*bottom: -2080px;*/
 }
 
 
 
 footer img {
-  /*padding-left: 107px;*/
   padding-top: 14px;
   padding-bottom: 0;
-
-
 }
 
 footer ul {
   list-style: none;
   padding: 0;
-
-
 }
 
 .footer-left {
   float: left;
-  /*padding-left: 107px;*/
   padding-left: 4%;
 }
 
@@ -289,8 +224,6 @@ footer ul li {
   font-family: 'Athelas', sans-serif;
   letter-spacing: 1px;
   font-size: 16px;
-  /*padding-top: 80px;*/
-
 }
 
 .footer-left-content {
@@ -300,7 +233,6 @@ footer ul li {
 footer ul li a {
   text-decoration: none;
   color: white;
-
 }
 
 footer ul li a:hover {
@@ -308,7 +240,6 @@ footer ul li a:hover {
 }
 
 .copyright {
-  /*padding-left: 107px;*/
   color: white;
   font-family: 'Athelas', sans-serif;
   font-size: 15px;
