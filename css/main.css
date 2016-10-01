@@ -172,12 +172,10 @@ main {
 
 header .banner-img {
   background: url('../images/amenities.png') no-repeat center bottom;
+  padding-top: 50%;
+  background-size: cover;
+  width: 100%;
 }
-    /*padding-top: 50%;
-
-    background-size: cover;
-    width: 100%;*/
-/*}*/
 
 
 
