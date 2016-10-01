@@ -96,19 +96,32 @@ textarea {
    ========================================================================== */
 /* BASE STYLES */
 
+/*
 body {
-  width: 1440px;
+  max-width: 1024px;
+  margin: 0 auto;
 }
+*/
 
 header {
   font-family: 'Times New Roman';
   font-weight: bold;
 }
 
+
+/*
+.container {
+  max-width: 60%;
+  margin: 0 auto;
+}
+*/
+
+
 /* NAVIGATION */
 
 nav {
   background-color: #be9195;
+/*  height: 100px;    */
   position: absolute;
   width: 100%;
   /*width: 1694px;*/
@@ -119,7 +132,7 @@ nav {
 }
 
 .top-logo {
-  padding-left: 32px;
+  padding-left: 4%;
   /*padding-left: 107px;*/
   padding-top: 10px;
   /*padding-bottom: 30px;*/
@@ -132,7 +145,7 @@ ul.nav {
   list-style: none;
   float: right;
   /*padding-right: 63px;*/
-
+  padding-right: 2%;
 }
 
 .nav li {
@@ -162,243 +175,65 @@ ul.nav {
 }
 
 
+main {
+/*  position: relative;*/
+    width: 80%;
+    margin: 0 auto;
+}
+
+
 
 /* SIDE MENU IMGS */
 
+/*
 .side-menu {
-  display: block;
+  position: relative;
+}
+
+.side-menu img {
   position: absolute;
-  float: right;
-  margin: 200px 0 0 1034px;
+  right: 0;
+  width: 10%;
 }
-
-.amenities-text {
-  font-family: 'Copperplate', serif;
-  font-weight: regular;
-  font-size: 28px;
-  letter-spacing: 1px;
-  color: #8d3b42;
-  position: absolute;
-  margin: 68px 0 0 115px;
-  margin-bottom: 0;
-}
-
-.amenities-text:hover {
-  color: white;
-  text-decoration: underline;
-}
-
-.gallery-text {
-  font-family: 'Copperplate', serif;
-  font-weight: regular;
-  font-size: 28px;
-  letter-spacing: 1px;
-  color: #8d3b42;
-  position: absolute;
-  margin: 68px 0 0 128px;
-  margin-bottom: 0;
-}
-
-.gallery-text:hover {
-  color: white;
-  text-decoration: underline;
-}
-
-.floor-plan-text {
-  font-family: 'Copperplate', sans-serif;
-  font-weight: regular;
-  font-size: 28px;
-  letter-spacing: 1px;
-  color: #8d3b42;
-  position: absolute;
-  margin: 68px 0 0 115px;
-  margin-bottom: 0;
-}
-
-.floor-plan-text:hover {
-  color: white;
-  text-decoration: underline;
-}
-
-.amenities-img {
-  width: 371px;
-  height: 156px;
-  margin-bottom: 20px;
-}
-
-.gallery-img {
-  width: 371px;
-  height: 156px;
-  margin-bottom: 20px;
-}
-
-.floor-plan-img {
-  width: 371px;
-  height: 156px;
-}
+*/
 
 /* OFFICE HOURS */
 
-.office-hours {
-  position: absolute;
-  float: right;
-  right: 0;
-  margin: 771px 88px 0 1020px;
-  font-family: 'Libre Baskerville', serif;
-  font-size: 18px;
-  text-align: center;
-  color: #8d3b42;
-}
-
-.office-hours-content {
-  margin-left: 38px;
-}
-
-.office-hours-header {
-  text-transform: uppercase;
-  font-weight: 700;
-  margin-bottom: 50px;
-}
-
-.ctas {
-  font-family: 'Copperplate', sans-serif;
-  font-weight: bold;
-  margin-top: 70px;
-
-  margin-left: 20px;
-
-}
-
-.schedule-link {
-  text-decoration: none;
-  color: #8d3b42;
-  border: 3px solid #8d3b42;
-  padding: 15px 30px 15px 30px;
-}
-
-.apply {
-  margin-top: 55px;
-}
-
-.apply-link {
-  text-decoration: none;
-  color: #8d3b42;
-  border: 3px solid #8d3b42;
-  padding: 13px 85px 13px 85px;
-}
-
-.schedule-appt:hover {
-  background-color: #8d3b42;
-}
-
-.schedule-link:hover {
-  background-color: #8d3b42;
-  color: white;
-}
-
-.apply-link:hover {
-  background-color: #8d3b42;
-  color: white;
-}
 
 
 /* HEADER CONTENT */
 
-.header-content {
-  margin-left: 32px;
-  /*margin-left: 100px;*/
-  clear: right;
-}
-
-.header-img {
-  margin-top: 200px;
-  border: solid 3px #be9195;
-  width: 850px;
-  margin-top: 200px;
-}
-
-
-.header-text {
-  font-family: 'Libre Baskerville', serif;
-  font-weight: 700;
-  font-size: 35px;
-  letter-spacing: 1px;
-  padding-top: 30px;
-  padding-bottom: 0;
-  margin-bottom: 0;
+header .banner-img {
+  /*position: relative;*/
+  padding-top: 50%;
+  background: url('../images/coconut-suite-apartments.png') no-repeat center bottom;
+  background-size: cover;
+  width: 100%;
 
 }
 
-.subhead {
-  font-family: 'Athelas', serif;
-  font-weight: lighter;
-  font-size: 28px;
-  font-style: italic;
-  margin-top: 0;
-}
+/*img.header-img {
+  position: absolute;
+  width: */
 
-.header-body {
-  font-family: 'Athelas', serif;
-  font-weight: normal;
-  margin-top: 45px;
-  line-height: 25px;
-  padding-right: 500px;
-  font-size: 20px;
+/*  width: 100%;    */
+
+/*  position: absolute;*/
+
 
 }
 
 /* LIST OF AMENITIES */
 
-.apartment-amenities {
-  background-color: #faf5f2;
-  width: 100%;
-  height: 590px;
-  left: 0;
-  right: 0;
-  position: absolute;
-  /*position: relative;*/
-  padding-bottom: 680px;
-  /*width: 1694px;*/
-  /*z-index: 5;*/
-  box-sizing: border-box;
-  padding-top: 20px;
-  margin-top: 150px;
-}
 
 
-.amenities-title {
-  text-align: center;
-  font-family: 'Times New Roman', serif;
-  font-size: 30px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #8d3b42;
-
-}
-
-.amenities-list {
-  font-family: 'Athelas', serif;
-  font-size: 28px;
-  letter-spacing: 1px;
-  color: #8d3b42;
-  margin-top: 80px;
-
-
-}
-
-.left-side {
-  float: left;
-  margin-left: 280px;
-  /*margin-left: 18%;*/
-
-}
-
-.right-side {
-  float: right;
-  margin-right: 280px;
-}
 
 /* FOOTER */
+
+/*footer {
+  background: blue;
+
+}*/
 
 footer {
   background-color: #8d3b42;
@@ -408,8 +243,22 @@ footer {
   height: 210px;
   margin-top: 800px;
   position: absolute;
+  /*bottom: 0;*/
   /*bottom: -2080px;*/
 }
+
+footer {
+  background-color: #8d3b42;
+  width: 100%;
+  /*width: 1694px;*/
+  clear: right;
+  height: 210px;
+  margin-top: 800px;
+  position: absolute;
+  /*bottom: 0;*/
+  /*bottom: -2080px;*/
+}
+
 
 
 footer img {
@@ -430,7 +279,7 @@ footer ul {
 .footer-left {
   float: left;
   /*padding-left: 107px;*/
-  padding-left: 32px;
+  padding-left: 4%;
 }
 
 footer ul li {
@@ -494,34 +343,6 @@ footer ul li a:hover {
 /* TABLET STYLES */
 
 
-/* DESKTOP STYLES */
-
-@media only screen and (max-width: 1024px) {
-
-  nav {
-    width: 1440px;
-  }
-
-  .apartment-amenities {
-    width: 1440px;
-  }
-
-  .office-hours {
-    position: absolute;
-    right: -330px;
-    top: 760px;
-    margin: 0;
-  }
-
-  .header-body {
-    padding-right: 500px;
-  }
-
-  footer {
-    width: 1440px;
-  }
-
-}
 
 
 
