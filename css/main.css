@@ -170,18 +170,15 @@ main {
 
 /* HEADER CONTENT */
 
-/*header .banner-img {
+header .banner-img {
   background: url('../images/amenities.png') no-repeat center bottom;
-}*/
+}
     /*padding-top: 50%;
 
     background-size: cover;
     width: 100%;*/
 /*}*/
 
-header .banner-img {
-  background: url('../images/amenities.png') no-repeat center bottom;
-}
 
 
 /* LIST OF AMENITIES */
