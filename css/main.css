@@ -635,6 +635,7 @@ footer ul li a:hover {
     padding-left: 0;
   }
 
+
   ul .left-side {
     padding-top: 10px;
     padding-left: 0;
@@ -812,10 +813,12 @@ footer ul li a:hover {
 
   ul.left-bullet {
     list-style: none;
+    padding-left: 0;
   }
 
   ul.right-bullet {
     list-style: none;
+    padding-left: 0;
   }
 
 }
