@@ -648,6 +648,7 @@ footer ul li a:hover {
 
   ul.right-bullet {
     list-style: none;
+    padding-right: 0;
   }
 
 
