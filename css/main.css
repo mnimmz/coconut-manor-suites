@@ -686,7 +686,7 @@ footer ul li a:hover {
 
 /* TABLET STYLES */
 
-@media screen and (max-width: 895px) {
+@media screen and (min-width: 800px) {
 
   /* office hours */
 
