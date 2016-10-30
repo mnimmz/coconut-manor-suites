@@ -176,7 +176,7 @@ aside.office-hours {
 .ctas {
   text-align: center;
   padding-top: 20px;
-  font-family: 'Copperplate', sans-serif;
+  font-family: 'copperplate', sans-serif;
   font-weight: bold;
 }
 
@@ -359,7 +359,7 @@ footer ul li a:hover {
 }
 
 .social-media h4 {
-  font-family: 'Copperplate', serif;
+  font-family: 'copperplate', sans-serif;
   font-weight: lighter;
   font-size: 18px;
   color: white;
