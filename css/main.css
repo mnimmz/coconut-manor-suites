@@ -239,9 +239,9 @@ header .banner-img {
 }
 
 .subhead {
-  font-family: 'Athelas', serif;
+  font-family: 'athelas', serif;
   font-style: italic;
-  font-weight: lighter;
+  font-weight: 400;
   letter-spacing: 1px;
   margin-top: .125rem;
 }
