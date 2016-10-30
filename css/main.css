@@ -238,7 +238,7 @@ header .banner-img {
 }
 
 .subhead {
-  font-family: 'Athelas', sans-serif;
+  font-family: 'Athelas', serif;
   font-style: italic;
   font-weight: lighter;
   letter-spacing: 1px;
@@ -246,7 +246,7 @@ header .banner-img {
 }
 
 .header-body {
-  font-family: 'Athelas', sans-serif;
+  font-family: 'Athelas', serif;
   font-size: 1.07rem;
   padding-right: 100px;
   line-height: 24px;
@@ -283,7 +283,7 @@ ul .left-side {
   padding-top: 60px;
   padding-left: 10%;
   font-size: 26px;
-  font-family: 'Athelas', sans-serif;
+  font-family: 'Athelas', serif;
 
 }
 
@@ -292,7 +292,7 @@ ul .right-side {
   top: 19.1%;
   padding-left: 57%;
   font-size: 26px;
-  font-family: 'Athelas', sans-serif;
+  font-family: 'Athelas', serif;
 }
 
 
@@ -328,7 +328,7 @@ footer ul li {
   display: inline;
   padding-right: 15px;
   box-sizing: border-box;
-  font-family: 'Athelas', sans-serif;
+  font-family: 'Athelas', serif;
   letter-spacing: 1px;
   font-size: 16px;
 }
@@ -348,7 +348,7 @@ footer ul li a:hover {
 
 .copyright {
   color: white;
-  font-family: 'Athelas', sans-serif;
+  font-family: 'Athelas', serif;
   font-size: 15px;
 }
 
